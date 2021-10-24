@@ -1,0 +1,11 @@
+[package]
+name = "datafusion-ruby"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+rutie = { version="0.8.3" }
+
+[lib]
+name = "datafusion_ruby"
+crate-type = ["cdylib"]
